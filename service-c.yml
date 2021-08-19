@@ -1,1 +1,9 @@
+server:
+  port: 8118
 
+spring:
+  cloud:
+    consul:
+      discovery:
+        instanceId: ServiceC
+        health-check-interval: 5s
